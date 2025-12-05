@@ -28,7 +28,7 @@ Provide managers with actionable reports for inventory and marketing decisions.
 
 
 
-# Phase II: Business Process Modeling
+# 📌 Phase II: Business Process Modeling
 
 This section documents the business process design behind CustoVision – an MIS-driven system that predicts customer needs, analyzes sales behaviour, and generates automated stock alerts for managers.
 
@@ -193,7 +193,7 @@ Decision_Log stores all managerial actions for auditing
 
 
 
-# Phase IV: Table Implementation & Data Insertion
+# 📌 Phase IV: Table Implementation & Data Insertion
 
 Phase IV focuses on building the physical database structure, populating it with realistic data, and verifying data integrity to support analytics and business intelligence.
 
