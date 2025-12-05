@@ -84,7 +84,7 @@ Decides on stocking, purchasing, and sales strategy
 
 # 3. BPMN/SWIMLANE Workflow
 ---------------
-#4. MIS Relevance & Analytics Opportunities
+# 4. MIS Relevance & Analytics Opportunities
 ✔ MIS Relevance
 
 Automates data capture
