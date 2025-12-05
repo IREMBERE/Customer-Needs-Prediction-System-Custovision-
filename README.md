@@ -300,3 +300,91 @@ Data distributions simulate actual business patterns (demographics, seasonal sal
  ### Subqueries
 
 
+
+# 📌Phase VI: Database Interaction & Transactions
+
+Phase VI focuses on developing the PL/SQL layer of CustoVision to handle all transactional and analytical operations. This includes procedures, functions, cursors, window functions, and packages, enabling automated customer demand forecasting, segmentation, and stock alerts.
+
+## Objectives
+
+Implement PL/SQL procedures for INSERT, UPDATE, DELETE operations with exception handling.
+
+Create functions for calculations, validation, and lookups.
+
+Use explicit cursors and bulk operations for efficient multi-row processing.
+
+Apply window functions (ROW_NUMBER, RANK, LAG, LEAD, aggregates with OVER clause) for analytics.
+
+Organize related operations into packages for modularity and maintainability.
+
+Handle exceptions with predefined and custom error logging.
+
+Verify correctness and performance with thorough testing.
+
+## Key Components
+### 1. Procedures
+
+Minimum of 3–5 parameterized procedures.
+
+Include IN, OUT, and IN OUT parameters.
+
+Support DML operations on Sales_History, Forecasts, Alerts, Customer_Segments.
+
+Exception handling ensures transaction rollback and logging.
+
+### 2. Functions
+
+Minimum of 3–5 functions.
+
+Types:
+
+Calculation functions (e.g., compute predicted demand)
+
+Validation functions (e.g., check stock levels)
+
+Lookup functions (e.g., get customer segment)
+
+Proper return types with error handling.
+
+### 3. Cursors
+
+Explicit cursors for multi-row queries.
+
+OPEN → FETCH → CLOSE pattern implemented.
+
+Bulk processing for efficiency.
+
+### 4. Window Functions
+
+ROW_NUMBER(), RANK(), DENSE_RANK() to rank customers and products.
+
+LAG(), LEAD() to compare periods and compute trends.
+
+Aggregate functions with OVER for moving totals and averages.
+
+### 5. Packages
+
+Packages group related procedures/functions.
+
+Include package specification (public interface) and package body (implementation).
+
+Enhances modularity and maintainability.
+
+### 6. Exception Handling
+
+Predefined Oracle exceptions handled.
+
+Custom exceptions defined for business rules (e.g., low stock, invalid input).
+
+Error logging and recovery mechanisms implemented.
+
+### 7.Testing
+
+All procedures/functions tested for correctness.
+
+Edge cases validated (nulls, invalid data, extreme values).
+
+Performance tested for bulk operations.
+
+Test results documented in GitHub submission.
+
