@@ -106,3 +106,51 @@ Low-stock detection
 Trend analysis & seasonal pattern detection
 
 Real-time performance dashboards
+
+
+
+# 📌 Phase III: Logical Model Design
+
+This phase focuses on designing a fully normalized logical data model (3NF minimum) for the CustoVision system to ensure data integrity, predictive analytics, and BI reporting capabilities.
+
+## 1. Entity-Relationship Model (ERM)
+
+### 🖇️Main Entities:
+
+Products – items sold
+
+Customers – customer info
+
+Sales_History – transaction records
+
+Forecasts – predicted demand data
+
+Alerts – low-stock warnings
+
+Customer_Segments – behavior-based classifications
+
+Decision_Log – managerial decisions audit
+
+Inventory_Transactions – stock updates
+
+### 🖇️Cardinalities / Relationships:
+
+Sales_History → Products: Many-to-One
+
+Sales_History → Customers: Many-to-One
+
+Forecasts → Products: Many-to-One
+
+Alerts → Products / Forecasts: Many-to-One
+
+Customer_Segments → Customers: One-to-One or One-to-Many
+
+Decision_Log: Independent audit table
+
+### 🖇️Constraints:
+
+PK uniqueness for all entities
+
+FK integrity enforced
+
+NOT NULL for mandatory fields
