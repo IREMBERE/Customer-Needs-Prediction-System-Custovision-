@@ -154,3 +154,41 @@ PK uniqueness for all entities
 FK integrity enforced
 
 NOT NULL for mandatory fields
+
+### Data Dictionary 
+______REMEMBER TABLE PICTURE ⚠️
+
+
+# 3. Normalization Summary
+
+1NF: All tables have atomic columns; no repeating groups
+
+2NF: All non-key attributes fully depend on PKs (no partial dependencies)
+
+3NF: No transitive dependencies; all attributes depend only on the primary key
+
+Outcome: Fully normalized schema ensures minimal redundancy, data integrity, and supports predictive analytics.
+
+# 4. BI & MIS Considerations
+
+Fact Tables: Sales_History, Forecasts
+
+Dimension Tables: Products, Customers, Customer_Segments
+
+Slowly Changing Dimensions: Customer_Segments (Type 2 SCD recommended)
+
+Aggregation Levels: Daily, weekly, monthly for sales and forecasts
+
+Audit Trails: Alerts and Decision_Log record all actions with timestamps for accountability
+
+# 5. Assumptions
+
+One sale per product per customer per day
+
+Forecasts computed per product per period (weekly or monthly)
+
+Alerts triggered only when predicted demand exceeds current stock + safety margin
+
+Decision_Log stores all managerial actions for auditing
+
+
