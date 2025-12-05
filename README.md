@@ -25,3 +25,84 @@ Classify customers based on behavior and buying frequency.
 Generate automated alerts for low stock or high forecasted demand.
 
 Provide managers with actionable reports for inventory and marketing decisions.
+
+
+
+# Phase II: Business Process Modeling
+
+This section documents the business process design behind CustoVision – an MIS-driven system that predicts customer needs, analyzes sales behaviour, and generates automated stock alerts for managers.
+
+# 1. Business Process Scope
+
+Process Modeled:
+Customer Demand Forecasting & Automated Stock Alert Workflow
+
+Purpose:
+To illustrate how sales data flows through the CustoVision MIS, how the system runs in-database analytics, and how managers receive actionable forecasting insights.
+
+Objectives:
+
+Detect buying patterns and forecast future product demand
+
+Identify low-stock risks before sales are affected
+
+Segment customers based on behavior and purchase frequency
+
+Deliver automated alerts and forecast reports to decision makers
+
+Expected Outcome:
+Managers receive accurate, system-generated MIS reports that improve inventory planning, procurement, and marketing strategies.
+
+# 2. Key Entities (Actors & Roles)
+## Sales Staff
+
+Records customer purchases
+
+Updates daily sales transactions
+
+## CustoVision MIS/Database (System Engine)
+
+Stores all sales and customer data
+
+Executes forecasting and segmentation algorithms
+
+Runs scheduled batch jobs
+
+Triggers automatic alerts and updates
+
+## Inventory Department
+
+Reviews stock level alerts
+
+Approves replenishment or procurement actions
+
+## Manager (Decision Maker)
+
+Reviews MIS forecasts and segmentation reports
+
+Decides on stocking, purchasing, and sales strategy
+
+# 3. BPMN/SWIMLANE Workflow
+---------------
+#4. MIS Relevance & Analytics Opportunities
+✔ MIS Relevance
+
+Automates data capture
+
+Applies in-database analytics for forecasting
+
+Provides real-time operational insights
+
+Supports decision-making through reports & alerts
+
+✔ Analytics Opportunities
+
+Monthly demand forecasting
+
+Customer segmentation for marketing
+
+Low-stock detection
+
+Trend analysis & seasonal pattern detection
+
+Real-time performance dashboards
