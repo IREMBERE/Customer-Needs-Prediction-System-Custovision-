@@ -192,3 +192,67 @@ Alerts triggered only when predicted demand exceeds current stock + safety margi
 Decision_Log stores all managerial actions for auditing
 
 
+
+# Phase IV: Table Implementation & Data Insertion
+
+Phase IV focuses on building the physical database structure, populating it with realistic data, and verifying data integrity to support analytics and business intelligence.
+
+## Objectives
+
+Convert all entities from the logical model into physical tables in Oracle.
+
+Define primary keys (PKs), foreign keys (FKs), and indexes.
+
+Enforce data constraints: NOT NULL, UNIQUE, CHECK, DEFAULT.
+
+Insert 100–500+ realistic rows per main table reflecting real business scenarios.
+
+Test data integrity and validate business rules.
+
+Run queries to verify correct table relationships, aggregation, and reporting readiness.
+
+## Table Implementation Highlights
+
+Products: Tracks items sold, categories, and current stock.
+
+Customers: Includes demographics, city, country, and email.
+
+Sales_History: Records transactions with product, customer, quantity, and unit price.
+
+Forecasts: Contains predicted demand with confidence scores and model types.
+
+Alerts: Low-stock notifications linked to products and forecasts.
+
+Customer_Segments: Classification based on purchase frequency and behavior.
+
+Decision_Log: Stores managerial decisions for audit.
+
+Inventory_Transactions: Tracks stock changes with transaction type.
+
+Supporting Tables: Public holidays, action audit for MIS compliance.
+
+## Constraints & Indexes:
+
+PKs ensure uniqueness.
+
+FKs enforce relational integrity.
+
+CHECK constraints validate business rules (e.g., quantity > 0, acknowledged status ‘Y/N’).
+
+Indexes created on frequent join columns to improve query performance.
+
+## Data Insertion
+
+Realistic rows generated for each table using PL/SQL loops and DBMS_RANDOM.
+
+Edge cases handled: NULL emails, walk-in customers, zero stock products.
+
+Data distributions simulate actual business patterns (demographics, seasonal sales, product categories).
+
+## Data Verification & Testing
+ ### Basic retrieval (SELECT *)
+ ### Joins (multi-table queries)
+ ### Aggregations (GROUP BY)
+ ### Subqueries
+
+
