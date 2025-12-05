@@ -192,8 +192,52 @@ Alerts triggered only when predicted demand exceeds current stock + safety margi
 Decision_Log stores all managerial actions for auditing
 
 
+# 📌Phase IV: Database Creation
 
-# 📌 Phase IV: Table Implementation & Data Insertion
+Phase IV focuses on creating and configuring the Oracle database to provide a robust foundation for the physical tables and subsequent data insertion in Phase V.
+
+## Objectives
+
+Set up an Oracle pluggable database (PDB) for CustoVision.
+
+Configure tablespaces for data, indexes, and temporary operations.
+
+Set memory parameters (SGA and PGA) for optimal performance.
+
+Enable archive logging for recovery and auditing.
+
+Configure autoextend parameters for tablespaces.
+
+Document database creation and configuration for reproducibility.
+
+## Database Configuration Highlights
+
+### Tablespaces:
+
+CUSTOVISION_DATA → stores main tables.
+
+CUSTOVISION_IDX → stores indexes.
+
+TEMP → temporary operations and sorting.
+
+### Memory Parameters:
+
+SGA (System Global Area) and PGA (Program Global Area) tuned for PL/SQL analytics.
+
+### Logging & Recovery:
+
+Archive logging enabled to support point-in-time recovery.
+
+### Autoextend:
+
+Tablespaces configured to autoextend as data grows.
+
+### Users & Permissions:
+
+CUSTOVISION_ADMIN user created with required privileges.
+
+
+# 📌 Phase V: Table Implementation & Data Insertion
 
 Phase IV focuses on building the physical database structure, populating it with realistic data, and verifying data integrity to support analytics and business intelligence.
 
