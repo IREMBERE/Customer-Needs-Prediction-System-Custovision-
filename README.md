@@ -1,4 +1,4 @@
-#CustoVision – Customer Needs Prediction System
+CustoVision – Customer Needs Prediction System
 📌 Project Overview
 
 CustoVision is an Oracle PL/SQL–based intelligent prediction system designed to help businesses forecast customer needs before they occur. By analyzing historical sales patterns, customer behavior, and product trends, the system generates demand forecasts, customer segmentation, and automated stock alerts to support smarter and faster decision-making.
