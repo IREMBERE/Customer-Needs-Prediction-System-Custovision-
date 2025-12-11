@@ -109,8 +109,6 @@ Low-stock detection
 Trend analysis & seasonal pattern detection
 
 Real-time performance dashboards
-![KPI Dashboard](screenshoots/database_objects/key%20perfomance%20indicator.png)
-
 
 # 📌 Phase III: Logical Model Design
 
@@ -164,7 +162,7 @@ NOT NULL for mandatory fields
 ![Phase 3 Custovision Data Dictionary](screenshoots/database_objects/Phase%203Custovision%20Data%20Dictionary.png)
 
 
-# 3. Normalization Summary
+# 2. Normalization Summary
 
 1NF: All tables have atomic columns; no repeating groups
 
@@ -174,7 +172,7 @@ NOT NULL for mandatory fields
 
 Outcome: Fully normalized schema ensures minimal redundancy, data integrity, and supports predictive analytics.
 
-# 4. BI & MIS Considerations
+# 3. BI & MIS Considerations
 
 Fact Tables: Sales_History, Forecasts
 
@@ -186,7 +184,9 @@ Aggregation Levels: Daily, weekly, monthly for sales and forecasts
 
 Audit Trails: Alerts and Decision_Log record all actions with timestamps for accountability
 
-# 5. Assumptions
+![KPI Dashboard](screenshoots/database_objects/key%20perfomance%20indicator.png)
+
+# 4. Assumptions
 
 One sale per product per customer per day
 
