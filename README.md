@@ -158,7 +158,7 @@ FK integrity enforced
 NOT NULL for mandatory fields
 
 ### Data Dictionary 
-______REMEMBER TABLE PICTURE ⚠️
+![Phase 3 Custovision Data Dictionary](screenshoots/database_objects/Phase%203Custovision%20Data%20Dictionary.png)
 
 
 # 3. Normalization Summary
