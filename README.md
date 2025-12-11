@@ -205,13 +205,27 @@ Phase IV focuses on creating and configuring the Oracle database to provide a ro
 
 Set up an Oracle pluggable database (PDB) for CustoVision.
 
+![Pluggable Database Creation](screenshoots/all_other_project_screenshoots/PHASE%20IV%20CREATING%20PLAGGABLE%20DATABSE.png)
+
+![Granting DBA Access](screenshoots/all_other_project_screenshoots/PHASE%20IV%20Granting%20DBA.png)
+
 Configure tablespaces for data, indexes, and temporary operations.
+
+![Table Space Creation](screenshoots/all_other_project_screenshoots/PHASE%20IV%20creating%20table%20spaces.png)
+
+![User Table Assignment](screenshoots/all_other_project_screenshoots/PHASE%20IV%20assigning%20tables%20to%20user.png)
 
 Set memory parameters (SGA and PGA) for optimal performance.
 
+![Parameter Configuration](screenshoots/all_other_project_screenshoots/PHASE%20IV%20configuring%20parameter.png)
+
 Enable archive logging for recovery and auditing.
 
+![Archive Logging Setup](screenshoots/all_other_project_screenshoots/PHASE%20IV%20archive%20logging.png)
+
 Configure autoextend parameters for tablespaces.
+
+![Auto-Extend Configuration](screenshoots/all_other_project_screenshoots/PHASE%20IV%20auto-extending%20parameter.png)
 
 Document database creation and configuration for reproducibility.
 
