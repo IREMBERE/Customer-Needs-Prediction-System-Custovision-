@@ -81,6 +81,7 @@ Approves replenishment or procurement actions
 Reviews MIS forecasts and segmentation reports
 
 Decides on stocking, purchasing, and sales strategy
+
 ---
 # 3. BPMN/SWIMLANE Workflow
 
@@ -108,7 +109,7 @@ Low-stock detection
 Trend analysis & seasonal pattern detection
 
 Real-time performance dashboards
-
+![KPI Dashboard](screenshoots/database_objects/key%20perfomance%20indicator.png)
 
 
 # 📌 Phase III: Logical Model Design
@@ -156,6 +157,8 @@ PK uniqueness for all entities
 FK integrity enforced
 
 NOT NULL for mandatory fields
+
+![ER Diagram](screenshoots/database_objects/Phase%203%20custovision%20ER%20Diagram.png)
 
 ### Data Dictionary 
 ![Phase 3 Custovision Data Dictionary](screenshoots/database_objects/Phase%203Custovision%20Data%20Dictionary.png)
