@@ -81,9 +81,11 @@ Approves replenishment or procurement actions
 Reviews MIS forecasts and segmentation reports
 
 Decides on stocking, purchasing, and sales strategy
-
+---
 # 3. BPMN/SWIMLANE Workflow
----------------
+
+![BPMN Diagram](screenshoots/database_objects/PHASE%20II%20CustoVision_BPMN_Diagram.png)
+---
 # 4. MIS Relevance & Analytics Opportunities
 ✔ MIS Relevance
 
