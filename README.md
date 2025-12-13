@@ -480,11 +480,14 @@ CREATE TABLE action_audit (
 );
 
 
-### 3. Audit Logging Function
+### 3. Audit Logging Procedure
 
 PL/SQL function logs all actions into audit_log.
 
 Called from triggers to ensure every attempt is recorded.
+
+![PHASE VII log_action procedure](screenshoots/all_other_project_screenshoots/PHASE%20VII%20log_action%20procedure.png)
+
 
 ### 4. Restriction Check Function
 
@@ -495,6 +498,9 @@ A weekday (Monday–Friday)
 A public holiday
 
 Returns BOOLEAN for trigger validation.
+
+![PHASE VII operation allowence](screenshoots/all_other_project_screenshoots/PHASE%20VII%20operation%20allowence.png)
+
 
 ### 5. Simple Triggers
 
@@ -508,6 +514,9 @@ Block DML on holidays
 
 Call restriction check and logging functions.
 
+![PHASE VII sales restriction trigger](screenshoots/all_other_project_screenshoots/PHASE%20VII%20sales%20_restriction%20trigger.png)
+
+
 ### 6. Compound Trigger
 
 Handles multi-row operations efficiently.
@@ -517,13 +526,21 @@ Ensures logging and enforcement at statement and row levels.
 ## Testing Requirements
 
 Attempted INSERT on weekday → DENIED
+![PHASE VII testing example](screenshoots/all_other_project_screenshoots/PHASE%20VII%20testing%20example.png)
+
 
 Attempted INSERT on weekend → ALLOWED
 
 Attempted INSERT on public holiday → DENIED
+![PHASE VII testing insert on public holiday](screenshoots/all_other_project_screenshoots/PHASE%20VII%20testing%20insert%20on%20public%20holiday.png)
+
 
 Audit log captures all attempts with details
+![PHASE VII audit log testing](screenshoots/all_other_project_screenshoots/PHASE%20VII%20audit%20log%20testing.png)
+
 
 Error messages are clear and informative
 
 User info is accurately recorded for accountability
+![PHASE VII checking who tried on public holiday](screenshoots/all_other_project_screenshoots/PHASE%20VII%20chacking%20who%20tried%20on%20public%20holiday.png)
+
