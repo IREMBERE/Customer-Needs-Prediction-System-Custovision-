@@ -401,6 +401,7 @@ LAG(), LEAD() to compare periods and compute trends.
 
 Aggregate functions with OVER for moving totals and averages.
 
+![PHASE VI rank function](screenshoots/all_other_project_screenshoots/PHASE%20VI%20rank%20functio.png)
 
 
 ### 5. Packages
