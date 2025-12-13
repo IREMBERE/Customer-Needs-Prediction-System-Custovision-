@@ -480,12 +480,14 @@ CREATE TABLE action_audit (
 );
 
 
-### 3. Audit Logging Procedure
+### 3. Audit Logging Function
 
 PL/SQL function logs all actions into audit_log.
 
 Called from triggers to ensure every attempt is recorded.
+![Phase VII Audit Logging Function](screenshoots/all_other_project_screenshoots/Phase%20VII%20Audit%20Logging%20Function.png)
 
+###Audit Logging Procedure
 ![PHASE VII log_action procedure](screenshoots/all_other_project_screenshoots/PHASE%20VII%20log_action%20procedure.png)
 
 
@@ -523,6 +525,8 @@ Handles multi-row operations efficiently.
 
 Ensures logging and enforcement at statement and row levels.
 
+![Phase VII trigger compound](screenshoots/all_other_project_screenshoots/Phase%20VII%20trigger%20coumpound.png)
+
 ## Testing Requirements
 
 Attempted INSERT on weekday → DENIED
@@ -530,6 +534,8 @@ Attempted INSERT on weekday → DENIED
 
 
 Attempted INSERT on weekend → ALLOWED
+![Phase VII inserting on weekend](screenshoots/all_other_project_screenshoots/Phase%20VII%20inserting%20on%20weekend.png)
+
 
 Attempted INSERT on public holiday → DENIED
 ![PHASE VII testing insert on public holiday](screenshoots/all_other_project_screenshoots/PHASE%20VII%20testing%20insert%20on%20public%20holiday.png)
