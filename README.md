@@ -312,12 +312,26 @@ Edge cases handled: NULL emails, walk-in customers, zero stock products.
 
 Data distributions simulate actual business patterns (demographics, seasonal sales, product categories).
 
-## Data Verification & Testing
- ### Basic retrieval (SELECT *)
- ### Joins (multi-table queries)
- ### Aggregations (GROUP BY)
- ### Subqueries
+ ## Data Verification & Testing
+ 
 
+ ### Data insertion
+![Trigger Test](screenshoots/test_results/trigger%20test.png)
+
+ ### Basic retrieval (SELECT *)
+ 
+ ![Low-Stock Alerts](screenshoots/oem_monitoring/Low-Stock%20Alerts.png)
+
+ ### Joins (multi-table queries)
+![Forecast Accuracy](screenshoots/test_results/forecast%20accuracy.png)
+ 
+ ### Aggregations (GROUP BY)
+![Sales Performance per Product](screenshoots/oem_monitoring/Sales%20Performance%20per%20Product.png)
+
+ 
+ ### Subqueries
+ 
+![PHASE V alerts & decision_log data insertion](screenshoots/all_other_project_screenshoots/PHASE%20V%20alerts&decision_log%20data%20insertion.png)
 
 
 # 📌Phase VI: Database Interaction & Transactions
