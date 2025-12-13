@@ -487,7 +487,7 @@ PL/SQL function logs all actions into audit_log.
 Called from triggers to ensure every attempt is recorded.
 ![Phase VII Audit Logging Function](screenshoots/all_other_project_screenshoots/Phase%20VII%20Audit%20Logging%20Function.png)
 
-###Audit Logging Procedure
+### Audit Logging Procedure
 ![PHASE VII log_action procedure](screenshoots/all_other_project_screenshoots/PHASE%20VII%20log_action%20procedure.png)
 
 
