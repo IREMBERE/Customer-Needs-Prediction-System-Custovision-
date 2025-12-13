@@ -364,6 +364,7 @@ Include IN, OUT, and IN OUT parameters.
 Support DML operations on Sales_History, Forecasts, Alerts, Customer_Segments.
 
 Exception handling ensures transaction rollback and logging.
+![PHASE VI product procedure creation](screenshoots/all_other_project_screenshoots/PHASE%20VI%20product%20procedure%20creation.png)
 
 ### 2. Functions
 
@@ -379,6 +380,8 @@ Lookup functions (e.g., get customer segment)
 
 Proper return types with error handling.
 
+![PHASE VI lookup function](screenshoots/all_other_project_screenshoots/PHASE%20VI%20lookup%20function.png)
+
 ### 3. Cursors
 
 Explicit cursors for multi-row queries.
@@ -386,6 +389,9 @@ Explicit cursors for multi-row queries.
 OPEN → FETCH → CLOSE pattern implemented.
 
 Bulk processing for efficiency.
+
+![PHASE VI cursor_sales](screenshoots/all_other_project_screenshoots/PHASE%20VI%20cursor_sales.png)
+
 
 ### 4. Window Functions
 
@@ -395,6 +401,8 @@ LAG(), LEAD() to compare periods and compute trends.
 
 Aggregate functions with OVER for moving totals and averages.
 
+
+
 ### 5. Packages
 
 Packages group related procedures/functions.
@@ -402,6 +410,8 @@ Packages group related procedures/functions.
 Include package specification (public interface) and package body (implementation).
 
 Enhances modularity and maintainability.
+![PHASE VI custovision_errors package](screenshoots/all_other_project_screenshoots/PHASE%20VI%20custovision_errors%20package.png)
+
 
 ### 6. Exception Handling
 
@@ -410,6 +420,8 @@ Predefined Oracle exceptions handled.
 Custom exceptions defined for business rules (e.g., low stock, invalid input).
 
 Error logging and recovery mechanisms implemented.
+![PHASE VI exception handlering1](screenshoots/all_other_project_screenshoots/PHASE%20VI%20exception%20handlering1.png)
+
 
 ### 7.Testing
 
@@ -419,7 +431,9 @@ Edge cases validated (nulls, invalid data, extreme values).
 
 Performance tested for bulk operations.
 
-Test results documented in GitHub submission.
+
+![PHASE VI testing1](screenshoots/all_other_project_screenshoots/PHASE%20VI%20testing1.png)
+
 
 
 # 📌Phase VII: Advanced Programming & Auditing
